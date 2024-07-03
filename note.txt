@@ -37,6 +37,19 @@
 ? git log --oneline
 * untuk menampilkan log dengan format yang lebih ringan
 
+? git command -help
+* untuk menampilkan bantuan dari command yang spesifik
 
+? git help --all
+* untuk menampilkan bantuan dari semua command
+
+? git branch
+* untuk menampilkan branch
+
+? git add branch
+* untuk menambahkan branch
+
+? git checkout branch-name
+* untuk mengganti branch
 
 */
