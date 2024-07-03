@@ -62,3 +62,19 @@
 * untuk menghapus branch
 
 */
+
+/* 
+! STEP-STEP MENGGUNAKAN GIT DENGAN LOCAL REPOSITORY
+1. buat folder
+2. tambahkan file
+3. git init // ? untuk membuatkan repository baru
+4. git add fileName.extension // ? untuk menambahkan file ke staging area
+5. git commit -m "pesan commit" // ? untuk mengirim commit
+6. git status // ? untuk menampilkan status
+7. git log // ? untuk menampilkan log
+8. git branch branch-name // ? untuk menambahkan branch
+9. git checkout -b branch-name // ? untuk mengganti branch
+10. git merge branch-name // ? untuk menggabungkan branch
+11. git branch -d branch-name // ? untuk menghapus branch
+
+*/
