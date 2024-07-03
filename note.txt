@@ -84,6 +84,9 @@
 ? git push origin
 * untuk mengirim commit dari local ke github
 
+! ORIGIN
+* Untuk mengakses remote repository dari github
+
 */
 
 /* 
