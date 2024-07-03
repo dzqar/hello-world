@@ -37,6 +37,22 @@
 ? git log --oneline
 * untuk menampilkan log dengan format yang lebih ringan
 
+? git command -help
+* untuk menampilkan bantuan dari command yang spesifik
 
+? git help --all
+* untuk menampilkan bantuan dari semua command
+
+! Branch di git
+* Branch adalah salinan dari kode yang memungkinkan Anda untuk bekerja secara independen dari cabang utama (main branch). Dengan menggunakan branch, Anda dapat mengembangkan fitur baru, memperbaiki bug, atau bereksperimen dengan ide-ide baru tanpa mempengaruhi kode yang ada di cabang utama. Setelah selesai bekerja di branch, Anda dapat menggabungkannya kembali ke cabang utama dengan menggunakan merge. Branch sangat berguna dalam pengembangan kolaboratif karena memungkinkan beberapa pengembang bekerja pada fitur yang berbeda secara bersamaan tanpa mengganggu satu sama lain.
+
+? git branch
+* untuk menampilkan branch
+
+? git add branch
+* untuk menambahkan branch
+
+? git checkout branch-name
+* untuk mengganti branch
 
 */
