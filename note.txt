@@ -107,8 +107,8 @@
 
 ! STEP-STEP MENGGUNAKAN GIT DENGAN GITHUB
 1. membuat repository baru di github
-2. git push --set-upstream origin master // ? untuk mengirim commit dari local ke github
-3. git remote add origin "url" // ? untuk menambahkan remote repository dari github
+2. git remote add origin "url" // ? untuk menambahkan remote repository dari github
+3. git push --set-upstream origin master // ? untuk mengirim commit dari local ke github
 4. git fetch origin // ? untuk mengambil data dari remote repository ke local tanpa menggabungkannya
 5. git diff origin/master // ? melihat perbedaan local & remote (GitHub)
 6. git merge origin/master // ? untuk menggabungkan remote repository ke local
