@@ -118,7 +118,6 @@
 
 ! FILE HABIS DI EDIT DARI GITHUB?
 1. git pull origin // ? untuk mengambil commit dari github ke local
-2. git commit -a -m "pesan commit" // ? untuk mengirim commit
 
 ! MAU UPDATE FILE DARI BRANCH GITHUB LAIN?
 1. git checkout branch-name // ? untuk mengganti branch (ke master)
