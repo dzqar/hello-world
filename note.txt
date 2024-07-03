@@ -116,7 +116,6 @@
 1. git commit -a -m "pesan commit" // ? untuk mengirim commit dengan menambahkan semua file yang sudah diubah
 2. git push origin // ? untuk mengirim commit dari local ke github
 
-
 ! FILE HABIS DI EDIT DARI GITHUB?
 1. git pull origin // ? untuk mengambil commit dari github ke local
 2. git commit -a -m "pesan commit" // ? untuk mengirim commit
