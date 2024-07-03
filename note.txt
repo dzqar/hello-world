@@ -61,6 +61,11 @@
 ? git branch -d branch-name
 * untuk menghapus branch
 
+*====================================================*
+! Git & GitHub
+? git remote add origin "url"
+* untuk menambahkan remote repository dari github
+
 */
 
 /* 
