@@ -1,0 +1,42 @@
+/*
+! SOURCE : w3schools
+
+? git version
+* untuk mengecek versi dari git
+
+? git config --global user.name "nama"
+* untuk mengatur nama
+
+? git config --global user.email "email"
+* untuk mengatur email
+
+? git init
+* untuk membuatkan repository baru
+
+? git status
+* untuk menampilkan status
+
+? git add
+* untuk menambahkan file ke staging area
+
+? git add -A atau -all
+* untuk menambahkan semua file ke staging area
+
+? git commit -m "pesan commit"
+* untuk mengirim commit
+
+? git status --short
+* untuk menampilkan status dengan format yang lebih ringan / lebih sedikit
+
+? git commit -a -m "pesan commit"
+* untuk mengirim commit dengan menambahkan semua file yang sudah diubah
+
+? git log
+* untuk menampilkan log
+
+? git log --oneline
+* untuk menampilkan log dengan format yang lebih ringan
+
+
+
+*/
