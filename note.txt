@@ -66,6 +66,21 @@
 ? git remote add origin "url"
 * untuk menambahkan remote repository dari github
 
+? git fetch
+* untuk mengambil data dari remote repository ke local tanpa menggabungkannya
+
+? git diff origin/master
+* melihat perbedaan local & remote (GitHub)
+
+? git merge origin/master
+* untuk menggabungkan remote repository ke local
+
+? git pull origin
+* untuk mengambil commit dari github ke local
+
+? git push origin
+* untuk mengirim commit dari local ke github
+
 */
 
 /* 
