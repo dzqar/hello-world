@@ -120,7 +120,8 @@
 1. git pull origin // ? untuk mengambil commit dari github ke local
 
 ! MAU UPDATE FILE DARI BRANCH GITHUB LAIN?
-1. git checkout branch-name // ? untuk mengganti branch (ke master)
-2. git merge origin/branch-name // ? untuk menggabungkan branch master -> branch-barunya
-3. git push origin master // ? untuk mengirim commit dari local ke github
+1. git checkout branch-name // ? untuk mengganti branch (ke branch-baru)
+2. git pull // ? untuk mengambil commit dari github ke local
+3. git merge origin/branch-name // ? untuk menggabungkan branch (branch-baru -> branch-master)
+4. git push origin master // ? untuk mengirim commit dari local ke github
 */
