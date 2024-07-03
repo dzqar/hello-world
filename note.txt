@@ -117,13 +117,11 @@
 2. git push origin // ? untuk mengirim commit dari local ke github
 
 ! FILE HABIS DI EDIT DARI GITHUB?
-1. git pull origin // ? untuk mengambil commit dari github ke local
-2. git branch -a // ? untuk menampilkan semua branch
-3. git checkout branch-name // ? untuk mengganti branch
-4. git commit -a -m "pesan commit" // ? untuk mengirim commit
+1. git pull // ? untuk mengambil commit dari github ke local
 
 ! MAU UPDATE FILE DARI BRANCH GITHUB LAIN?
 1. git checkout branch-name // ? untuk mengganti branch
-2. git merge origin/branch-name // ? untuk menggabungkan branch
-3. git push origin master // ? untuk mengirim commit dari local ke github
+2. git pull // ? untuk mengambil commit dari github ke local
+3. git merge origin/branch-name // ? untuk menggabungkan branch
+4. git push origin master // ? untuk mengirim commit dari local ke github
 */
