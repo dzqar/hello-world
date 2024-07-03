@@ -23,7 +23,7 @@
 * untuk menambahkan semua file ke staging area
 
 ? git commit -m "pesan commit"
-* untuk mengirim commit
+* untuk mengirim pesan commit
 
 ? git status --short
 * untuk menampilkan status dengan format yang lebih ringan / lebih sedikit
@@ -66,7 +66,10 @@
 ? git remote add origin "url"
 * untuk menambahkan remote repository dari github
 
-? git fetch
+? git push --set-upstream origin master
+* untuk mengirim commit dari local ke github
+
+? git fetch origin
 * untuk mengambil data dari remote repository ke local tanpa menggabungkannya
 
 ? git diff origin/master
@@ -89,7 +92,7 @@
 2. tambahkan file
 3. git init // ? untuk membuatkan repository baru
 4. git add fileName.extension // ? untuk menambahkan file ke staging area
-5. git commit -m "pesan commit" // ? untuk mengirim commit
+5. git commit -a -m "pesan commit" // ? untuk mengirim commit dengan menambahkan semua file yang sudah diubah
 6. git status // ? untuk menampilkan status
 7. git log // ? untuk menampilkan log
 8. git branch branch-name // ? untuk menambahkan branch
@@ -97,4 +100,24 @@
 10. git merge branch-name // ? untuk menggabungkan branch
 11. git branch -d branch-name // ? untuk menghapus branch
 
+*=====================================================*
+
+! STEP-STEP MENGGUNAKAN GIT DENGAN GITHUB
+1. membuat repository baru di github
+2. git push --set-upstream origin master // ? untuk mengirim commit dari local ke github
+3. git remote add origin "url" // ? untuk menambahkan remote repository dari github
+4. git fetch origin // ? untuk mengambil data dari remote repository ke local tanpa menggabungkannya
+5. git diff origin/master // ? melihat perbedaan local & remote (GitHub)
+6. git merge origin/master // ? untuk menggabungkan remote repository ke local
+7. git pull origin // ? untuk mengambil commit dari github ke local
+8. git push origin // ? untuk mengirim commit dari local ke github
+
+! ADA YANG HABIS DI EDIT FILENYA DARI LOCAL?
+1. git commit -a -m "pesan commit" // ? untuk mengirim commit dengan menambahkan semua file yang sudah diubah
+2. git push origin // ? untuk mengirim commit dari local ke github
+
+
+! FILE HABIS DI EDIT DARI GITHUB?
+1. git pull origin // ? untuk mengambil commit dari github ke local
+2. git commit -a -m "pesan commit" // ? untuk mengirim commit
 */
